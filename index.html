@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<title>Knowit Test-case</title>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Repositories</h1>
+
+		<nav>
+			<ul class="pagination" id="pagination">
+				<!-- Naviagion loaded by JS -->
+			</ul>
+		</nav>
+
+		<table class="table table-striped table-hover table-bordered table-sm">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Forks</th>
+					<th>Open issues</th>
+					<th>Stars</th>
+				</tr>
+			</thead>
+			<tbody id="table-data">
+				<tr id="table-loading">
+					<td colspan="4">Loading data...</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
